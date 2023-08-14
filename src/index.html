@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<title>Frondtend Mentor Notifications page</title>
+
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+			rel="stylesheet" />
+
+		<link rel="stylesheet" href="./dist/output.css" />
+	</head>
+
+	<body class="font-fontPri text-body text-white bg-cream">
+		<main class="grid place-items-center min-h-screen px-4">
+			<div class="w-full max-w-[540px]">
+				<!-- "My balance" header section -->
+				<header
+					class="px-4 py-6 bg-orange-red flex justify-between items-center rounded-xl mb-6">
+					<div class="">
+						<h2 class="text-miniCaption tablet:text-body">My balance</h2>
+						<span class="block text-[1.5rem] tablet:text-hdgL font-bold"
+							>$921.48</span
+						>
+					</div>
+					<svg
+						width="72"
+						height="48"
+						viewBox="0 0 72 48"
+						xmlns="http://www.w3.org/2000/svg">
+						<g fill="none" fill-rule="evenodd">
+							<circle fill="#382314" cx="48" cy="24" r="24" />
+							<circle
+								stroke="#FFF"
+								stroke-width="2"
+								cx="24"
+								cy="24"
+								r="23" />
+						</g>
+					</svg>
+				</header>
+
+				<!-- Weekly spending bar graph -->
+				<section class="px-4 py-6 bg-card-white rounded-xl">
+					<h1
+						class="text-[1.5rem] tablet:text-hdgL font-bold text-dark-brown mb-12">
+						Spending - Last 7 days
+					</h1>
+
+					<!-- Individual bar graph items -->
+					<div class="flex items-end justify-between gap-2 mb-6">
+						<div class="flex flex-col basis-1/2">
+							<!-- <div class="px-2 py-2 bg-dark-brown rounded-md mb-2">
+								$52.36
+							</div> -->
+							<div class="h-[50px] bg-orange-red rounded-md mb-2"></div>
+							<span class="block text-miniCaption text-medium-brown"
+								>mon</span
+							>
+						</div>
+						<div class="text-center basis-1/2">
+							<div class="h-[100px] bg-orange-red rounded-md mb-2"></div>
+							<span class="block text-miniCaption text-medium-brown"
+								>tues</span
+							>
+						</div>
+						<div class="text-center basis-1/2">
+							<div class="h-[150px] bg-cyan rounded-md mb-2"></div>
+							<span class="block text-miniCaption text-medium-brown"
+								>wed</span
+							>
+						</div>
+						<div class="text-center basis-1/2">
+							<div class="h-[89px] bg-orange-red rounded-md mb-2"></div>
+							<span class="block text-miniCaption text-medium-brown"
+								>thur</span
+							>
+						</div>
+						<div class="text-center basis-1/2">
+							<div class="h-[67px] bg-orange-red rounded-md mb-2"></div>
+							<span class="block text-miniCaption text-medium-brown"
+								>fri</span
+							>
+						</div>
+						<div class="text-center basis-1/2">
+							<div class="h-[124px] bg-orange-red rounded-md mb-2"></div>
+							<span class="block text-miniCaption text-medium-brown"
+								>sat</span
+							>
+						</div>
+						<div class="text-center basis-1/2">
+							<div class="h-[73px] bg-orange-red rounded-md mb-2"></div>
+							<span class="block text-miniCaption text-medium-brown"
+								>sun</span
+							>
+						</div>
+					</div>
+
+					<!-- Divider -->
+					<div class="h-[2px] bg-cream mb-6"></div>
+
+					<!-- Summary Section -->
+					<div class="flex justify-between items-end">
+						<div>
+							<h2
+								class="text-miniCaption tablet:text-body text-medium-brown">
+								Total this month
+							</h2>
+							<span
+								class="block font-bold text-dark-brown text-[30px] tablet:text-hdgXl"
+								>$478.33</span
+							>
+						</div>
+						<div class="text-right">
+							<span
+								class="block text-miniCaption tablet:text-body font-bold text-dark-brown"
+								>+2.4%</span
+							>
+							<h2
+								class="text-miniCaption tablet:text-body text-medium-brown">
+								from last month
+							</h2>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<script src="main.js" async></script>
+		<!-- May use defer instead of async in script tag -->
+	</body>
+</html>
