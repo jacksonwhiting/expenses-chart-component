@@ -634,6 +634,22 @@ video {
   height: 229px;
 }
 
+.h-\[18px\] {
+  height: 18px;
+}
+
+.h-\[34px\] {
+  height: 34px;
+}
+
+.h-\[45px\] {
+  height: 45px;
+}
+
+.h-\[75px\] {
+  height: 75px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
