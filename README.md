@@ -62,4 +62,4 @@ I'd like to continue working with external data using the fetch API. I'd also li
 ## Author
 
 -  Frontend Mentor - [@jacksonwhiting](https://www.frontendmentor.io/profile/jacksonwhiting)
--  Twitter - [@JWhiting00](https://www.twitter.com/JWhiting0)
+-  Twitter - [@JWhiting00](https://www.twitter.com/JWhiting00)
